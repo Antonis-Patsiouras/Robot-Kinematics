@@ -1,5 +1,5 @@
-CSV = readmatrix('C:\Users\apats\OneDrive\Documents\MSc Robotics\P201\Project1\file1.csv');
-disp('%%%%%%%%%%%%%%%%%%%%%%%%%%%PROJECT1%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%PROJECT1%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%');
+CSV = readmatrix('your_CSV_file');
+
 r = 0.067;
 b = 0.125;
 
@@ -68,7 +68,6 @@ for j = 1:size(IT,2)
     end
 end
 
-disp('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%POSITIONS%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%POSITIONS%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%');
 disp(POS);
 figure;
 plot(POS);
